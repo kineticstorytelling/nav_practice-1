@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&display=swap');
+
+:root{
+    --blue: rgb(0, 119, 214, 1);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(240, 239, 239);
+}
+.bmo{
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px;
+    margin: 0 0 0 10px;
+}
+
+.logo1{
+    font-family: 'Averia Sans Libre', impact;
+    text-transform: lowercase;
+    font-size: 25px;
+    margin-left: -300px 
+}
+
+input{
+    padding: 10px 20px 10px 50px;
+    background-image: url(/icons8-magnifying-glass-64.png) ;
+    background-repeat: no-repeat;
+    background-size: 28px;
+    background-position: 15px ;
+    height: 45px;
+    width: 38rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(218, 218, 218);
+    margin-right: 25em;
+
+}
+
+input::-webkit-input-placeholder{
+    font-size: 15px;
+    font-family: 'Arial Narrow'
+   
+}
